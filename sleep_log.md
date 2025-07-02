@@ -1,4 +1,4 @@
 # Sleep log  
 | date | duration_hr | quality |  
 |------|-------------|---------|
-| 7/1 | 8 | ok |
+| 2025-07-01 | 8 | ok |
