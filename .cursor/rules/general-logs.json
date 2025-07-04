@@ -1,0 +1,10 @@
+{
+  "name": "General logging standards",
+  "scope": ["logs/"],
+  "rules": [
+    "Always use YYYY-MM-DD format for all date entries (e.g., 2025-01-15).",
+    "Maintain consistent Markdown table formatting with proper alignment.",
+    "Never modify or reorder existing log entries; only append new ones.",
+    "Create monthly log files when missing using the standard headers for each log type."
+  ]
+}

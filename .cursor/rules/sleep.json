@@ -3,8 +3,11 @@
   "scope": ["logs/sleep"],
   "rules": [
     "Always log sleep in files named logs/sleep/YYYY-MM-sleep.md.",
+    "Use YYYY-MM-DD date format for all sleep entries (follows general logging standards).",
     "Ensure the Markdown table header (date | start_time | end_time | hours | notes) remains the first row.",
-    "Append one row per sleep entry; never reorder existing rows.",
+    "Append one row per sleep session; never reorder existing rows.",
+    "Use 24-hour format for start_time and end_time (e.g., 22:30, 07:15).",
+    "Calculate hours as decimal (e.g., 8.5 for 8 hours 30 minutes).",
     "If a monthly file is missing, create it using the standard header."
   ]
 }
