@@ -1,0 +1,10 @@
+{
+  "name": "Sleep logs maintenance",
+  "scope": ["logs/sleep"],
+  "rules": [
+    "Always log sleep in files named logs/sleep/YYYY-MM-sleep.md.",
+    "Ensure the Markdown table header (date | start_time | end_time | hours | notes) remains the first row.",
+    "Append one row per sleep entry; never reorder existing rows.",
+    "If a monthly file is missing, create it using the standard header."
+  ]
+}

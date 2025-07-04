@@ -1,0 +1,10 @@
+{
+  "name": "Workout logs maintenance",
+  "scope": ["logs/workouts"],
+  "rules": [
+    "Always log workouts in files named logs/workouts/YYYY-MM-workouts.md.",
+    "Ensure the Markdown table header (date | exercise | details) remains the first row.",
+    "Append one row per workout; never reorder existing rows.",
+    "If a monthly file is missing, create it using the standard header."
+  ]
+}
