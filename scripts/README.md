@@ -1,0 +1,1 @@
+Place Python or JS helper scripts here later (e.g., weekly summaries, SQLite migrations).

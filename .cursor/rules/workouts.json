@@ -1,0 +1,12 @@
+{
+  "name": "Workout logs maintenance",
+  "scope": ["logs/workouts"],
+  "rules": [
+    "Always log workouts in files named logs/workouts/YYYY-MM-workouts.md.",
+    "Use YYYY-MM-DD date format for all workout entries (follows general logging standards).",
+    "Ensure the Markdown table header (date | exercise | details) remains the first row.",
+    "Append one row per workout session; never reorder existing rows.",
+    "Include specific exercise details in the 'details' column (sets, reps, weight, duration, etc.).",
+    "If a monthly file is missing, create it using the standard header."
+  ]
+}
